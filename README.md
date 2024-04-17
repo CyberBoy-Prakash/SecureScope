@@ -27,7 +27,8 @@ cd securescope
 Install Dependencies
 Install the necessary Python packages using pip:
 
-```bash pip install -r requirements.txt ```
+```bash
+pip install -r requirements.txt
 
 **Usage**
 SecureScope can be run in various modes depending on the availability of automated security reports.
