@@ -24,7 +24,7 @@ cd securescope
 Install Dependencies
 Install the necessary Python packages using pip:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt ```
 
 **Usage**
 SecureScope can be run in various modes depending on the availability of automated security reports.
@@ -32,9 +32,7 @@ SecureScope can be run in various modes depending on the availability of automat
 Basic Usage
 To start SecureScope without any parameters, simply run:
 
-bash
-
-python securescope.py
+```python securescope.py```
 This command initiates the tool in interactive mode, prompting you to manually input all required information to perform the risk assessment.
 
 **Using Automated Reports**
@@ -42,15 +40,15 @@ SecureScope can automatically analyze security reports from Burp Suite and Nessu
 
 Using a Burp Suite Report
 
-python securescope.py --burp-report=path/to/burp_report.xml
+```python securescope.py --burp-report=path/to/burp_report.xml```
 Using a Nessus Report
 
 
-python securescope.py --nessus-report=path/to/nessus_report.html
+```python securescope.py --nessus-report=path/to/nessus_report.html```
 You can also use both reports simultaneously to enhance the accuracy of the risk assessment:
 
 
-python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html
+```python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html```
 
 
 **Dependencies**
@@ -61,11 +59,8 @@ matplotlib
 rich
 These dependencies can be installed from the requirements.txt file provided in the repository.
 
-Contributing
+**Contributing**
 We welcome contributions from the community. If you wish to contribute to SecureScope, please fork the repository, make your changes, and submit a pull request.
 
-License
-SecureScope is released under the MIT License. For more details, see the LICENSE file in the repository.
-
-Authors
+**Authors**
 Prakash Nadakuditi - for contact and more information about contributions, please reach out at prakash.nadakuditi@gmail.com
