@@ -18,7 +18,7 @@ Follow these steps to get SecureScope up and running on your system:
 1. **Clone the Repository**
    Clone the SecureScope repository to your local machine using Git:
    ```
-   git clone https://github.com/yourgithubusername/securescope.git ```
+   git clone https://github.com/yourgithubusername/securescope.git 
 Navigate to the SecureScope Directory
 Change into the SecureScope directory:
 
@@ -27,8 +27,8 @@ cd securescope
 Install Dependencies
 Install the necessary Python packages using pip:
 
-```bash
-pip install -r requirements.txt
+```
+pip install -r requirements.txt ```
 
 **Usage**
 SecureScope can be run in various modes depending on the availability of automated security reports.
@@ -36,7 +36,7 @@ SecureScope can be run in various modes depending on the availability of automat
 Basic Usage
 To start SecureScope without any parameters, simply run:
 
-```bash python securescope.py```
+``` python securescope.py ```
 This command initiates the tool in interactive mode, prompting you to manually input all required information to perform the risk assessment.
 
 **Using Automated Reports**
@@ -44,15 +44,15 @@ SecureScope can automatically analyze security reports from Burp Suite and Nessu
 
 Using a Burp Suite Report
 
-```bash python securescope.py --burp-report=path/to/burp_report.xml```
+``` python securescope.py --burp-report=path/to/burp_report.xml ```
 Using a Nessus Report
 
 
-```bash python securescope.py --nessus-report=path/to/nessus_report.html```
+``` python securescope.py --nessus-report=path/to/nessus_report.html ```
 You can also use both reports simultaneously to enhance the accuracy of the risk assessment:
 
 
-```bash python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html```
+``` python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html ```
 
 
 
