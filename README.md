@@ -17,8 +17,8 @@ Follow these steps to get SecureScope up and running on your system:
 
 1. **Clone the Repository**
    Clone the SecureScope repository to your local machine using Git:
-   ```bash
-   git clone https://github.com/yourgithubusername/securescope.git
+   ```
+   git clone https://github.com/yourgithubusername/securescope.git ```
 Navigate to the SecureScope Directory
 Change into the SecureScope directory:
 
