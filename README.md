@@ -28,7 +28,7 @@ Install Dependencies
 Install the necessary Python packages using pip:
 
 ```
-pip install -r requirements.txt ```
+pip install -r requirements.txt 
 
 **Usage**
 SecureScope can be run in various modes depending on the availability of automated security reports.
@@ -36,7 +36,8 @@ SecureScope can be run in various modes depending on the availability of automat
 Basic Usage
 To start SecureScope without any parameters, simply run:
 
-``` python securescope.py ```
+```
+python securescope.py
 This command initiates the tool in interactive mode, prompting you to manually input all required information to perform the risk assessment.
 
 **Using Automated Reports**
@@ -44,15 +45,18 @@ SecureScope can automatically analyze security reports from Burp Suite and Nessu
 
 Using a Burp Suite Report
 
-``` python securescope.py --burp-report=path/to/burp_report.xml ```
+```
+python securescope.py --burp-report=path/to/burp_report.xml 
 Using a Nessus Report
 
 
-``` python securescope.py --nessus-report=path/to/nessus_report.html ```
+```
+python securescope.py --nessus-report=path/to/nessus_report.html 
 You can also use both reports simultaneously to enhance the accuracy of the risk assessment:
 
 
-``` python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html ```
+```
+python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html 
 
 
 
