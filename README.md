@@ -1,6 +1,8 @@
 # SecureScope
 
 SecureScope is an advanced risk assessment tool tailored for security professionals to evaluate potential risks associated with their IT infrastructure. By integrating analysis from automated security reports and manual input, SecureScope provides a comprehensive risk evaluation by considering factors such as vulnerabilities, technical impacts, business impacts, and threat agent influences.
+![Screenshot 2024-04-16 200801](https://github.com/CyberBoy-Prakash/SecureScope/assets/165967067/0e358008-3df5-42b2-ae7d-ac2443a93060)
+
 
 ## Key Features
 
@@ -49,6 +51,8 @@ You can also use both reports simultaneously to enhance the accuracy of the risk
 
 
 ```bash python securescope.py --burp-report=path/to/burp_report.xml --nessus-report=path/to/nessus_report.html```
+![Screenshot 2024-04-16 200619](https://github.com/CyberBoy-Prakash/SecureScope/assets/165967067/22f45517-ede9-47ae-99d3-888140f8ee22)
+
 
 
 **Dependencies**
